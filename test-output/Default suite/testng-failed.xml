@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="mavenProject.Google">
+      <class name="mavenProject.FacebookJenkins">
         <methods>
+          <include name="f"/>
           <include name="beforeTest"/>
           <include name="afterTest"/>
-          <include name="LaunchTest"/>
         </methods>
-      </class> <!-- mavenProject.Google -->
+      </class> <!-- mavenProject.FacebookJenkins -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
