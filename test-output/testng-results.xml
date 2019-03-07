@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="5446" started-at="2019-03-07T09:50:28Z" finished-at="2019-03-07T09:50:34Z">
+  <suite name="Default suite" duration-ms="8259" started-at="2019-03-07T12:45:01Z" finished-at="2019-03-07T12:45:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="5446" started-at="2019-03-07T09:50:28Z" finished-at="2019-03-07T09:50:34Z">
-      <class name="mavenProject.Google">
-        <test-method status="PASS" signature="LaunchAppTest()[pri:0, instance:mavenProject.Google@7c16905e]" name="LaunchAppTest" is-config="true" duration-ms="4725" started-at="2019-03-07T15:20:28Z" finished-at="2019-03-07T15:20:33Z">
+    <test name="Default test" duration-ms="8259" started-at="2019-03-07T12:45:01Z" finished-at="2019-03-07T12:45:09Z">
+      <class name="mavenProject.FacebookJenkins">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:mavenProject.FacebookJenkins@7c16905e]" name="beforeTest" is-config="true" duration-ms="6172" started-at="2019-03-07T18:15:01Z" finished-at="2019-03-07T18:15:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchAppTest -->
-        <test-method status="PASS" signature="LaunchTest()[pri:0, instance:mavenProject.Google@7c16905e]" name="LaunchTest" duration-ms="14" started-at="2019-03-07T15:20:33Z" finished-at="2019-03-07T15:20:33Z">
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="f()[pri:0, instance:mavenProject.FacebookJenkins@7c16905e]" name="f" duration-ms="1249" started-at="2019-03-07T18:15:07Z" finished-at="2019-03-07T18:15:08Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchTest -->
-        <test-method status="PASS" signature="CrowserCloseTest()[pri:0, instance:mavenProject.Google@7c16905e]" name="CrowserCloseTest" is-config="true" duration-ms="690" started-at="2019-03-07T15:20:33Z" finished-at="2019-03-07T15:20:34Z">
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:mavenProject.FacebookJenkins@7c16905e]" name="afterTest" is-config="true" duration-ms="809" started-at="2019-03-07T18:15:08Z" finished-at="2019-03-07T18:15:09Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- CrowserCloseTest -->
-      </class> <!-- mavenProject.Google -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- mavenProject.FacebookJenkins -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -8,7 +8,7 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 
-public class FacebookJenkins {
+public class FacebookJenkinsTest {
 	WebDriver driver ;
   @Test
   public void f() {
@@ -27,8 +27,9 @@ public class FacebookJenkins {
   }
   @BeforeTest
   public void beforeTest() {
-	  System.setProperty("webdriver.gecko.driver", "C:\\Users\\SUSMITAMONDAL\\Desktop\\geckodriver.exe"); 
+	  System.setProperty("webdriver.gecko.driver", "C:\\Users\\SUSMITAMONDAL\\Desktop\\Desktop_8ThFeb2019\\Manipal_Training Time documents\\chromedriver.exe"); 
 		driver = new FirefoxDriver();
+		driver.get("https://www.facebook.com/");
   }
 
   @AfterTest
